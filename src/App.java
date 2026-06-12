@@ -41,7 +41,7 @@ public class App {
         
         
         System.out.println("Pila ordenada: " + miPila);
-        System.out.println("Nuevo   " + miPila.peek());
+        System.out.println("Nuevo  S " + miPila.peek());
         System.out.println();
 
         
