@@ -12,16 +12,56 @@ En este  proyecto se desarrollo  en Java con el objetivo de aplicar estructuras 
 
 ## Descripción
 
-Se implementó la clase "SignValidator", la cual utiliza una estructura Stack para verificar si una cadena de caracteres contiene signos correctamente balanceados.
+Se implementó la clase "SignValidator", la cual utilizamos una estructura Stack para poder verificar si una cadena de caracteres contiene signos correctamente.
 Los símbolos permitidos son:     () , [] , {}
+
+### Imagenes de consola y codigo del ejercicio 1:
+
+
+
 
 # Ejercicio 02: Ordenar Stack
 
 ## Descripción
 
-Se implementó la clase "StackSorter", encargada de ordenar un Stack de enteros utilizando exclusivamente operaciones propias de Stack.
+Se implementó la clase "StackSorter", encargada de ordenar un Stack de enteros utilizando solo operaciones propias de Stack.
 
 Operaciones permitidas: push(), pop(), peek(), isEmpty()
+
+### imagenes de consola y codigo del ejercicio 2:
+
+![alt text](image-2.png)
+
+salida:
+![alt text](image-3.png)
+
+
+
+
+# Ejercicio 03: Palíndromo usando Colas
+
+## Descripción
+
+Se implementó la clase "QueuePalindrome", que utiliza estructuras Queue para determinar si una palabra es un palíndromo.
+
+Una palabra es palíndroma cuando se lee igual de izquierda a derecha y de derecha a izquierda.
+
+Ejemplos:ana, radar, reconocer
+
+### captura de pantalla de consola y codigo del ejerccio 3:
+![alt text](image.png)
+
+salida:
+![alt text](image-1.png)
+
+## Resumen de evidencias
+
+| Ejercicio | Evidencia de código | Evidencia de consola | Observación |
+|------------|-------------------|---------------------|-------------|
+| Validación de signos | Incluida | Incluida | Casos válidos e inválidos correctos |
+| Ordenar Stack | Incluida | Incluida | Stack ordenado correctamente |
+| Palíndromo usando Colas | Incluida | Incluida | En este ejerccio se pudo observar que hay casos verdaderos y falsos correctos |
+
 
 
 
