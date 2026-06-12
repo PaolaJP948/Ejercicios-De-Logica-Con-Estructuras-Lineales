@@ -1,18 +1,74 @@
-## Getting Started
+## Titulo de practica: Ejercicios de logica con estructuras 
+### Integrantes: Paola Pintado, Jose Vega, Ariel Ushca
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Descripción general del proyecto:
 
-## Folder Structure
+En este  proyecto se desarrollo  en Java con el objetivo de aplicar estructuras de datos lineales utilizando clases, paquetes y programación orientada a objetos.
 
-The workspace contains two folders by default, where:
+## Explicacion de los tres ejerccios:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# Ejercicio 01: Validación de Signos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Descripción
 
-## Dependency Management
+Se implementó la clase "SignValidator", la cual utilizamos una estructura Stack para poder verificar si una cadena de caracteres contiene signos correctamente.
+Los símbolos permitidos son:     () , [] , {}
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Imagenes de consola y codigo del ejercicio 1:
+
+
+
+
+# Ejercicio 02: Ordenar Stack
+
+## Descripción
+
+Se implementó la clase "StackSorter", encargada de ordenar un Stack de enteros utilizando solo operaciones propias de Stack.
+
+Operaciones permitidas: push(), pop(), peek(), isEmpty()
+
+### imagenes de consola y codigo del ejercicio 2:
+
+![alt text](image-2.png)
+
+salida:
+![alt text](image-3.png)
+
+
+
+
+# Ejercicio 03: Palíndromo usando Colas
+
+## Descripción
+
+Se implementó la clase "QueuePalindrome", que utiliza estructuras Queue para determinar si una palabra es un palíndromo.
+
+Una palabra es palíndroma cuando se lee igual de izquierda a derecha y de derecha a izquierda.
+
+Ejemplos:ana, radar, reconocer
+
+### captura de pantalla de consola y codigo del ejerccio 3:
+![alt text](image.png)
+
+salida:
+![alt text](image-1.png)
+
+## Resumen de evidencias
+
+| Ejercicio | Evidencia de código | Evidencia de consola | Observación |
+|------------|-------------------|---------------------|-------------|
+| Validación de signos | Incluida | Incluida | Casos válidos e inválidos correctos |
+| Ordenar Stack | Incluida | Incluida | Stack ordenado correctamente |
+| Palíndromo usando Colas | Incluida | Incluida | En este ejerccio se pudo observar que hay casos verdaderos y falsos correctos |
+
+
+
+
+
+
+
+
+
+ 
+

@@ -21,7 +21,7 @@ public class SignValidator {
             } 
             
             else if (current == ')' || current == '}' || current == ']') {
-                // Si la pila está vacía, significa que hay un cierre sin apertura previa
+                
                 if (stack.isEmpty()) {
                     return false;
                 }
