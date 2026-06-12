@@ -11,7 +11,7 @@ public class App {
         
 
         //  Validacion de sgignos
-        
+
         System.out.println("--- Ejercicio 01: Validación de Signos ---");
         SignValidator validator = new SignValidator();
         
@@ -35,13 +35,13 @@ public class App {
         miPila.push(1);
         miPila.push(5);
 
-        System.out.println("Pila original (Tope al final en impresión): " + miPila);
-        System.out.println("Tope actual: " + miPila.peek());
+        System.out.println("Pila original : " + miPila);
+        System.out.println("actual: " + miPila.peek());
         
         
         
         System.out.println("Pila ordenada: " + miPila);
-        System.out.println("Nuevo tope (debe ser el menor, 1): " + miPila.peek());
+        System.out.println("Nuevo   " + miPila.peek());
         System.out.println();
 
         
