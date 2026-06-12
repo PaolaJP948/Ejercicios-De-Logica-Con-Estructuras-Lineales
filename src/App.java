@@ -1,48 +1,58 @@
-import java.util.Stack;
-import utils.QueuePalindrome;
+
+
+    import utils.SignValidator;
 import utils.StackSorter;
+import utils.QueuePalindrome;
+import java.util.Stack;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-        QueuePalindrome evaluator = new QueuePalindrome();
+
+    public static void main(String[] args) {
+        
+
+        //  Validacion de sgignos
+
+        System.out.println("--- Ejercicio 01: Validación de Signos ---");
+        SignValidator validator = new SignValidator();
+        
+        String stringValido = "{[()]}";
+        String stringInvalido = "{[(])}";
+        String stringIncompleto = "((([";
+
+        System.out.println("¿Es válido '" + stringValido + "'?: " + validator.isValid(stringValido)); 
+        System.out.println("¿Es válido '" + stringInvalido + "'?: " + validator.isValid(stringInvalido)); 
+        System.out.println("¿Es válido '" + stringIncompleto + "'?: " + validator.isValid(stringIncompleto)); 
+        System.out.println();
+
+        //  Ordenar un Stack
+        
+        System.out.println("--- Ejercicio 02: Ordenar un Stack ---");
+        StackSorter sorter = new StackSorter();
+        Stack<Integer> miPila = new Stack<>();
+        
+        miPila.push(2);
+        miPila.push(4);
+        miPila.push(1);
+        miPila.push(5);
+
+        System.out.println("Pila original : " + miPila);
+        System.out.println("actual: " + miPila.peek());
+        
+        
+        
+        System.out.println("Pila ordenada: " + miPila);
+        System.out.println("Nuevo  S " + miPila.peek());
+        System.out.println();
 
         
-        String palabra1 = "ana";
-        String  palabra2 = "radar";
-        String palabra3 = "java";
+        System.out.println("--- Ejercicio 03: Palíndromo usando Colas ---");
+        QueuePalindrome palindromeChecker = new QueuePalindrome();
+        
+        String palabraPalindroma = "Radar";
+        String palabraNormal = "Java";
 
-        // 3. Evaluamos e imprimimos los resultados en consola
-        System.out.println("Input: \"" + palabra1 + "\"");
-        System.out.println("Output: " + evaluator.isPalindrome(palabra1));
-        System.out.println();
-
-        System.out.println("Input: \"" + palabra2 + "\"");
-        System.out.println("Output: " + evaluator.isPalindrome(palabra2));
-        System.out.println();
-
-        System.out.println("Input: \"" + palabra3 + "\"");
-        System.out.println("Output: " + evaluator.isPalindrome(palabra3));
-
-        Stack<Integer> stack = new Stack<>();
-        stack.push(2);
-        stack.push(4);
-        stack.push(1);
-        stack.push(5);
-
-        System.out.println("Input:  (tope) 5 -> 1 -> 4 -> 2");
-
-        StackSorter sorter = new StackSorter();
-        sorter.sortStack(stack);
-
-        System.out.print("Output: (tope) ");
-        while (!stack.isEmpty()) {
-            System.out.print(stack.pop());
-            if (!stack.isEmpty()) {
-                System.out.print(" -> ");
-            }
-        }
-        System.out.println();
-
-
+        System.out.println("¿Es palíndromo '" + palabraPalindroma + "'?: " + palindromeChecker.isPalindrome(palabraPalindroma)); 
+        System.out.println("¿Es palíndromo '" + palabraNormal + "'?: " + palindromeChecker.isPalindrome(palabraNormal)); 
+        System.out.println("\n=============================================");
     }
 }
