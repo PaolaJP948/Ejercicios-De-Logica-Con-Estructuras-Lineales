@@ -1,18 +1,34 @@
-## Getting Started
+## Titulo de practica: Ejercicios de logica con estructuras 
+### Integrantes: Paola Pintado, Jose Vega, Ariel Ushca
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Descripción general del proyecto:
 
-## Folder Structure
+En este  proyecto se desarrollo  en Java con el objetivo de aplicar estructuras de datos lineales utilizando clases, paquetes y programación orientada a objetos.
 
-The workspace contains two folders by default, where:
+## Explicacion de los tres ejerccios:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# Ejercicio 01: Validación de Signos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Descripción
 
-## Dependency Management
+Se implementó la clase "SignValidator", la cual utiliza una estructura Stack para verificar si una cadena de caracteres contiene signos correctamente balanceados.
+Los símbolos permitidos son:     () , [] , {}
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Ejercicio 02: Ordenar Stack
+
+## Descripción
+
+Se implementó la clase "StackSorter", encargada de ordenar un Stack de enteros utilizando exclusivamente operaciones propias de Stack.
+
+Operaciones permitidas: push(), pop(), peek(), isEmpty()
+
+
+
+
+
+
+
+
+ 
+
