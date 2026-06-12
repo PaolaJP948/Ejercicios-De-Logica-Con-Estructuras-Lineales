@@ -17,7 +17,12 @@ Los símbolos permitidos son:     () , [] , {}
 
 ### Imagenes de consola y codigo del ejercicio 1:
 
+![alt text](image-4.png)
+![alt text](image-5.png)
 
+salida:
+
+![alt text](image-7.png)
 
 
 # Ejercicio 02: Ordenar Stack
@@ -32,9 +37,13 @@ Operaciones permitidas: push(), pop(), peek(), isEmpty()
 
 ![alt text](image-2.png)
 
-salida:
 ![alt text](image-3.png)
 
+
+
+
+Salida:
+![alt text](image-6.png)
 
 
 
@@ -61,6 +70,18 @@ salida:
 | Validación de signos | Incluida | Incluida | Casos válidos e inválidos correctos |
 | Ordenar Stack | Incluida | Incluida | Stack ordenado correctamente |
 | Palíndromo usando Colas | Incluida | Incluida | En este ejerccio se pudo observar que hay casos verdaderos y falsos correctos |
+
+
+### Conclusiones
+
+Conclusion  1:
+Mediante esta prctica pudimos comprender la importancia de las estructuras lineales, como las pilas que nos sirve para resolver problemas donde se quiere mantener  un orden especifico como en el ejercicio.
+
+Conclusion 2: con el uso de Colas que es el (Queue) permitió entender de mejor manera el principio de FIFO, que ayudo a a hacer la validacion del palindromo.
+
+
+Conclusio 3: ayudo a entender de mejor manera implementacion de estos metodos 
+
 
 
 
